@@ -6,18 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" type="text/css" href="index.css" />
-    <title>JS Dom App</title>
+    <title>JS Dom Todo</title>
   </head>
   <body>
-    <h1>Testing my knowledg eof the JS Dom</h1>
-    <form id="add">
-      <fieldset>
-        <label for="todo">Add a todo</label>
-        <input type="text" id="todo" name="todo" />
-      </fieldset>
-      <button type="submit">TEST</button>
-    </form>
-    <ul id="list"></ul>
+    <main>
+      <header>
+        <h1>JS Dom Todo</h1>
+        <span id="subtitle">Addressing a gap in my knowledge</span>
+      </header>
+      <form id="add">
+        <fieldset>
+          <label for="todo">Add a todo: </label>
+          <input type="text" id="todo" name="todo" />
+        </fieldset>
+        <button type="submit">Add</button>
+      </form>
+      <ul id="list"></ul>
+    </main>
     <script src="/index.js"></script>
   </body>
 </html>
